@@ -31,7 +31,7 @@ int[,] GetArray(int rows, int colum) //Данный метод создает д
   return res;
 }
 
-//В данном цикле нахожу строку с наименьшей суммой элементов и вывожу на консоль строку.
+//В данном цикле перебераю строку с наименьшей суммой элементов и вывожу на консоль строку.
 int minNumString = 0;
 int numString = SumElement(array, 0);
 for (int i = 1; i < array.GetLength(0); i++)
